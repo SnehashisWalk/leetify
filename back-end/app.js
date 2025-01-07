@@ -9,6 +9,10 @@ app.use(express.json());
 app.use(express.urlencoded());
 routes(app);
 
+app.get('/', (req, res) => {
+  res.send("Server is up!")
+})
+
 app.listen(8000, () => {
   console.log("Server started on port 8000!");
 });

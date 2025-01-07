@@ -10,76 +10,52 @@ There are three types of users:
 
 -Admin: Users with admin privileges can add new problems, view statistics, and manage users.
 
-## Team Members
+## Tech Stack
+The project is built with the following technologies:
 
-Akhil Talashi (NUID: 002776504) Aka “AT”
+| **Frontend**        | **Backend**         | **UI Framework**  |
+|----------------------|---------------------|-------------------|
+| React, State Management (Redux)               | Node.js, Express.js            | SASS, Material UI       |
 
-Rutuja Balkrishna Ghate (NUID: 002749465) Aka “RBG”
+| **Charts**        | **Code Editor**         |  **Authentication** |
+|----------------------|---------------------|---------------------|    
+| React Recharts            | Monaco Code Editor  |JWT, BCrypt (for hashing passwords)
 
-Snehashis Lenka (NUID: 002772221) Aka “SL”
+## Screenshots
+### Homepage
+![Homepage](github-assets/homepage.png)
 
-Lakshmi Gayatri Aishwarya Adduri (NUID: 002738716) Aka “LGAA”
+### Navigation
+![Navigation](github-assets/navigation.png)
 
-## Milestones, User Stories & Task Assignment
+### User Home
+![User Home](github-assets/userhome.png)
 
-## Milestone 1: Project Setup and User Authentication
+### User Dashboard
+![User Dashboard](github-assets/userdashboard.png)
 
-As a normal/premium user or an admin, I can sign up for an account with my email and a password. (Assignee: LGAA)
+### Problems Page
+![Problems Page](github-assets/userproblem.png)
 
-As a normal/premium user or an admin, I can log in to my account to access my dashboard. (Assignee:AT )
+### Code Editor
+![Code Editor](github-assets/codeeditor.png)
 
-As a normal/premium user or an admin, I can log out of my account. (Assignee: RBG)
+### Submissions Page
+![Submissions Page](github-assets/submissionspage.png)
 
-As a normal/premium user or an admin, I can receive an email verification to confirm my account. (Assignee: SL)
+### Admin Dashboard
+![Admin Dashboard](github-assets/admindashboard.png)
 
-## Milestone 2: Problem Management and Submission
+### Admin: Set Problem
+![Admin: Set Problem](github-assets/setproblem.png)
 
-As a normal/premium user, I can view a list of available coding problems.  (Assignee: RBG)
+### Admin: Update Problem
+![Admin: Update Problem](github-assets/updateproblem.png)
+---
 
-As a normal/premium user, I can select a coding problem and read the problem statement.  (Assignee:AT )
-
-As a normal/premium user, I can submit a solution to a coding problem.  (Assignee: RBG)
-
-As a normal/premium user, I can view a history of my submitted solutions and their status (accepted, rejected, pending).  (Assignee:SL)
-
-As a normal/premium user, I can receive feedback on my submitted solutions.  (Assignee:LGAA )
-
-## Milestone 3: Premium Features and Analytics
-
-As a premium user, I can access more challenging coding problems that are not available to normal users.  (Assignee:AT )
-
-As a premium user, I can receive advanced analytics on my performance.  (Assignee: SL)
-
-As a premium user, I can participate in a leaderboard to see how I rank among other premium users.  (Assignee: LGAA)
-
-As a premium user, I can downgrade my account to a normal user account if I choose to do so.  (Assignee: RBG)
-
-## Milestone 4: Admin Dashboard and Problem Management
-
-As an admin, I can log in to my admin account to access the admin dashboard.  (Assignee: AT)
-
-As an admin, I can view statistics on user activity, such as the number of problems solved and the success rate of submitted solutions.  (Assignee: SL)
-
-As an admin, I can add new coding problems for users to solve.  (Assignee: LGAA )
-
-As an admin, I can edit or delete existing coding problems.  (Assignee: LGAA)
-
-As an admin, I can manage user accounts, such as deleting or banning accounts that violate the terms of service.  (Assignee:RBK )
-
-As an admin, I can view a leaderboard of top-performing users.  (Assignee:SL )
-
-## Milestone 5: Deployment and Testing
-
-Deploy the application to a production environment.  (Assignee: SL)
-
-Write automated tests or perform manual testing to ensure the application functions as expected, user-friendly and bug-free  (Assignee: LGAA)
-
-Address any issues or bugs that arise during testing.  (Assignee:RBG )
-
-
-Once all issues and bugs are addressed, the application can be considered ready for launch.  (Assignee:AT )
-
-![model](modelDiag.jpeg)
+## System Design
+### Model Diagram
+![Model Diagram](modelDiag.jpeg)
 
 
 
